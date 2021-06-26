@@ -1,5 +1,5 @@
 # Concrete_crack_segmentation
-代码地址： https://github.com/fanlei1219/Crack   
+代码地址： https://github.com/fanlei1219/Concrete_crack_segmentation   
 系统：Windows10  
 环境：Pytorch 1.8.1，Numpy  
 需安装包：pytorch, numpy, os, pillow, torchvision, argparse, tqdm, tensorboardX, cv2   
