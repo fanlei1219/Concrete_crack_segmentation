@@ -3,12 +3,11 @@ import os
 import numpy as np
 import torch
 import tqdm
-from deeplab_model.datasets import utils
+from dataloaders import utils, make_data_loader
 from PIL import Image
-from deeplab_model.deeplab import *
-from deeplab_model.metrics import Evaluator
+from modeling.deeplab import *
+from utils.metrics import Evaluator
 import time
-
 
 class Tester(object):
     def __init__(self, args):
